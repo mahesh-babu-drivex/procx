@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set background image
-background_image = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHSrZDw38v1zmGeJqVAiRSaP4AwPbYTzYw4H29Zk1hFw&s'
+background_image = 'https://mfiles.alphacoders.com/101/1011744.png'
 st.markdown(
     f"""
     <style>
