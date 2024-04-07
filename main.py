@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set background image
-background_image = 'https://static.vecteezy.com/system/resources/previews/030/314/122/large_2x/glowing-3d-tech-network-background-vertical-mobile-wallpaper-ai-generated-free-photo.jpg'
+background_image = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHSrZDw38v1zmGeJqVAiRSaP4AwPbYTzYw4H29Zk1hFw&s'
 st.markdown(
     f"""
     <style>
