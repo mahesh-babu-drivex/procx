@@ -24,7 +24,20 @@ container_style = """
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    height:410px;
+    height: auto;
+    margin: 20px 0 ;
+"""
+
+container_style_new = """
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+    margin: 20px 0 ;
 """
 
 # App icon
@@ -57,25 +70,18 @@ st.markdown(
                 #f37523 64%,
                 #f47823 100%); color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none; transition: background-color 0.3s;" target="_blank">ProcX Web</a>
         </div>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
-
-# Login and Feedback divs
-st.markdown(
-    f"""
-    <div style="{container_style} display: flex; flex-direction: row;">
-        <div style="text-align: center; color: orange; flex-grow: 1; margin-right: 10px;">
-            <div style="background-color: rgba(255, 255, 255, 0.4); padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); margin-bottom: 30px; height:238px">
-                <h6>Login Credentials</h2>
-                <p style="color: purple;">For Login Credentials please contact- <br> <span  style="color: black;">Rishab, <a href="tel:908376373838">9548494539</a>, <a href="mailto:rishab.giri@drivex.in">rishab.giri@drivex.in</a> </span><br> or<br><span style="color: black;"> Durgaprasad, <a href="tel:8885456932">8885456932</a>, <a href="mailto:durga.rayudu@drivex.in ">durga.rayudu@drivex.in</a></p></span>
+        <div style="{container_style_new}">
+            <div style="text-align: center; color: orange; margin-bottom: 30px;">
+                <div style="background-color: rgba(255, 255, 255, 0.4); padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+                    <h6>Login Credentials</h2>
+                    <p style="color: purple;">For Login Credentials please contact- <br> <span  style="color: black;">Rishab,<br> <a href="tel:908376373838">9548494539</a>, <a href="mailto:rishab.giri@drivex.in">rishab.giri@drivex.in</a> </span><br> or<br><span style="color: black;"> Durga Prasad,<br> <a href="tel:8885456932">8885456932</a>, <a href="mailto:durga.rayudu@drivex.in ">durga.rayudu@drivex.in</a></p></span>
+                </div>
             </div>
-        </div>
-        <div style="text-align: center; color: orange; flex-grow: 1; margin-left: 10px;">
-            <div style="background-color: rgba(255, 255, 255, 0.4); padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); margin-bottom: 30px; height:235px">
-                <h6 style="padding-top:35px">Feedback</h2>
-                <p style="color: purple;">Please click on the below link to share your feedback<br> <a href="https://forms.gle/hsMufT6vbGttqixw6" target="_blank">Click here</a></p>
+            <div style="text-align: center; color: orange;">
+                <div style="background-color: rgba(255, 255, 255, 0.4); padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+                    <h6>Feedback</h2>
+                    <p style="color: purple;">Please click on the below link to share your feedback<br> <a href="https://forms.gle/hsMufT6vbGttqixw6" target="_blank">Click here</a></p>
+                </div>
             </div>
         </div>
     </div>
