@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set background image
-background_image = 'https://mfiles.alphacoders.com/101/1011744.png'
+background_image = ""
 st.markdown(
     f"""
     <style>
@@ -11,7 +11,7 @@ st.markdown(
     }}
     </style>
     """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True,
 )
 
 # Container style
@@ -27,7 +27,7 @@ container_style = """
 """
 
 # App icon
-icon_url = 'https://procx.drivex.dev/loginPage/procx-logo.png'
+icon_url = "https://procx.drivex.dev/loginPage/procx-logo.png"
 
 # Title and content
 st.markdown(
@@ -37,14 +37,26 @@ st.markdown(
         <div style="text-align: center; color: orange;">
             <p style="color: black;">Download our mobile app to stay connected</p>
             <p style="color: red;"><span style="color: red;">*</span> Only for Android users</p>
-            <a href="https://drive.usercontent.google.com/download?id=1l00hPKlh7BV_uLNnclX0IxAHqH5icYd-&export=download&authuser=0" style="background-color: #007bff; color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none; transition: background-color 0.3s; margin-bottom: 20px; display: inline-block;" target="_blank">Download Mobile App</a>
+            <a href="https://drive.google.com/drive/folders/176QNjHtYKVNywe_zY-Um5Go7n4OgH4x8?usp=drive_link" style="background: linear-gradient(88deg,
+                #e63c32 0%,
+                #e94a2e 9%,
+                #ee5e29 24%,
+                #f16d25 42%,
+                #f37523 64%,
+                #f47823 100%); color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none; transition: background-color 0.3s; margin-bottom: 20px; display: inline-block;" target="_blank">Download Mobile App</a>
         </div>
         <div style="text-align: center; color: orange;">
             <p style="color: black;">Click on ProcX website:</p>
             <p style="color: red;"><span style="color: red;">*</span> Only for ProcX admins</p>
-            <a href="https://procx.drivex.in/" style="background-color: #007bff; color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none; transition: background-color 0.3s;" target="_blank">ProcX Web</a>
+            <a href="https://procx.drivex.in/" style="background: linear-gradient(88deg,
+                #e63c32 0%,
+                #e94a2e 9%,
+                #ee5e29 24%,
+                #f16d25 42%,
+                #f37523 64%,
+                #f47823 100%); color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none; transition: background-color 0.3s;" target="_blank">ProcX Web</a>
         </div>
     </div>
     """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True,
 )
